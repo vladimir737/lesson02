@@ -18,4 +18,4 @@
     console.log(addExpenses.toLowerCase().split(', '));  //приведение строки addExpenses к нижнему регистру
     
     let budgetDay = money/30;  //присвоение переменной дневной бюджет
-    console.log(budgetDay);  //вывод переменной в консоль
+    console.log(budgetDay.toFixed(2));  //вывод переменной в консоль
