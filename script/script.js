@@ -17,5 +17,5 @@
 
     console.log(addExpenses.toLowerCase().split(', '));  //приведение строки addExpenses к нижнему регистру
     
-    let budgetDay = money;  //присвоение переменной доход на месяц
-    console.log(budgetDay/30);  //вывод переменной в консоль
+    let budgetDay = money/30;  //присвоение переменной дневной бюджет
+    console.log(budgetDay);  //вывод переменной в консоль
